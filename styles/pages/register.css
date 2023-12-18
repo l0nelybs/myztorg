@@ -1,0 +1,25 @@
+.form {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    color: #ffffff;
+}
+
+.form .button-form {
+    margin-bottom: 40px;
+}
+
+.form-header, .form-offer, .form-last {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.form-header h1{
+    text-align: center;
+    color: #e8fccd;
+    font-size: 24px;
+}
+
+.form-offer a, .form-last a {
+    color: #e8fccd;
+}

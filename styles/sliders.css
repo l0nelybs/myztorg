@@ -1,0 +1,32 @@
+
+.slider {
+    margin-bottom: 200px;
+}
+
+.swiper-slide {
+    max-height: 300px;
+    display: flex;
+
+    position: relative;
+}
+
+.swiper-slide img {
+    height: 100%;
+    margin-right: 30px;
+}
+
+
+.swiper-slide p {
+    font-size: 36px;
+    font-weight: 500;
+    padding: 10px 30px;
+    background-color: rgba(255, 255, 255, .8);
+    border-radius: 10px;
+    max-width: 500px;
+    text-align: start;
+    line-height: 130%;
+
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}

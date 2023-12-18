@@ -1,0 +1,42 @@
+.content {
+    margin-top: 50px;
+}
+
+.content-info {
+    font-size: 16px;
+    margin-bottom: 50px;
+
+    font-size: 18px;
+    text-align: center;
+}
+
+.content-info__select {
+    color: #e8fccd;
+}
+
+.content-map {
+
+}
+
+.content-column {
+    display: flex;
+}
+
+.content-form {
+    margin-left: 50px;
+    background-color: rgba(255, 255, 255, .05);
+    width: 100%;
+    padding: 20px 30% 20px 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-form__title {
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}

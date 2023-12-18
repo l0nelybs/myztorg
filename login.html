@@ -1,0 +1,64 @@
+<!DOCTYPE html >
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+	
+	<link href="./styles/default.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="./styles/fonts.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="./styles/style.css" rel="stylesheet">
+	<link href="./styles/korstyle.css" rel="stylesheet">
+	<link href="./styles/pages/register.css" rel="stylesheet">
+	<link href="./styles/form.css" rel="stylesheet">
+
+	<title></title>
+</head>
+<body>
+	<div id="header-wrapper">
+		<div id="header" class="cont">
+			<div id="logo">
+				<h1><span class="fa fa-bolt"></span><a href="index.html">МУЗТОРГ Ульяновск</a></h1>
+			</div>
+			<div id="menu">
+				<ul>
+					<li><a href="index.html" accesskey="1" title="">Домашняя страница</a></li>
+					<li><a href="catalog.html" accesskey="2" title="">Каталог</a></li>
+					<li><a href="find.html" accesskey="3" title="">Где нас найти</a></li>
+					<li><a href="register.html" accesskey="4" title="">Регистрация</a></li>
+					<li><a href="about.html" accesskey="5" title="">О нас</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<form class="form" action="action_page.php">
+			<div class="form-header">
+				<h1>Авторизация</h1>
+				<p >Введите данные для авторизации аккаунта</p>
+			</div>
+		
+			<div class="field">
+				<label class="label" for="email">Почта</label>
+				<input class="input" id="email" type="text" placeholder="Введите email" name="email" required>
+			</div>
+
+			<div class="field">
+				<label class="label" for="password">Пароль</label>
+				<input class="input" id="password" type="password" placeholder="Введите пароль" name="password" required>
+			</div>
+
+			<button type="submit" class="button-form">Авторизоваться</button>
+
+			<div class="form-last">
+				<p>У вас нету учетной записи? <a href="register.html">Зарегистрируйтесь</a>.</p>
+			</div>
+		</form>
+	</div>
+
+	<div id="copyright" class="container">
+		<p>2023 &copy; <a href="about.html">О нас</a>.</p>
+	</div>
+
+</body>
+</html>
